@@ -1,0 +1,122 @@
+SOBRE
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOBRE</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <header>
+        <h1>SOBRE - COLÉGIO ESTADUAL ERON DOMINGUES</h1>
+    </header>
+    <img src="https://www.opresente.com.br/wp-content/uploads/2019/03/eron-1-e1644948480766.jpg" alt="">
+
+    <nav>
+        <ul>
+            <li><a href="">Quem somos nós?</a></li>
+            <li><a href="">História</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    
+
+<footer> Desenvolvido por @lotusoull </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+CONTATO
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" required>
+        <label for="mensagem">mensagem:</label>
+        <textarea name="mensagem" id="mensagem" rows="7"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+
+</html>
+
+
+
+
+
+CSS
+
+
+
+
+body {
+    background-color: lightgrey;
+    color: darkred;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: darkred;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    cursor: crosshair;
+}
+
+section {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: red;
+    color: white;
+    position: fixed;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
